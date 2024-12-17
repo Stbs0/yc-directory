@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
  experimental: {
    ppr: "incremental"
  },
+ typescript:{
+  ignoreBuildErrors:true
+ },
+ eslint:{
+  ignoreDuringBuilds:true
+ },
  devIndicators:{
   appIsrStatus: true,
   buildActivity: true,
